@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9670819ea2167a34c8c24cf88e2dd3ee, type: 3}
+  m_Name: StatsMovementBasic
+  m_EditorClassIdentifier: 
+  maxSpeed: 8
+  sprintSpeedMultiplier: 1.5
+  groundAcceleration: 50
+  airAcceleration: 35
+  groundDeceleration: 60
+  AirDeceleration: 20
+  doubleJumps: 0
+  jumpInputDelay: 0.1
+  jumpHeight: 6.53
+  maxDoubleJumpSpeed: 1
+  minimumJumpingTime: 0
+  maxFallSpeed: -15
+  groundedGravity: 0
+  upwardsGravityMultiplier: 2.5
+  downwardsGravityMultiplier: 5
+  hangTimeGravity: 0
+  hangTimeStartingVelocity: 0
+  jumpBuffer: 0.1
+  coyoteTime: 0.05
+  platformDetectorDistance: 0.05
+  dashDistance: 17
+  dashDuration: 0.2
+  dashCooldown: 0.2
+  dashHeightDisplacement: 4.5275793
+  airDashes: 1
